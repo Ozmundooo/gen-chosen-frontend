@@ -4,15 +4,9 @@ import { slide as Menu } from "react-burger-menu";
 function Sidebar() {
   return (
     <>
-      <Menu right>
-        <Link href="/work" className="font-['Poppins'] font-bold text-lg">
-          Work
-        </Link>
-        <Link href="/blog" className="font-['Poppins'] font-bold text-lg">
-          Blog
-        </Link>
-        <Link href="/" className="font-['Poppins'] font-bold text-lg">
-          Contact
+      <Menu className="font-[Open Sans]" right>
+        <Link href="/" className=" font-bold text-xl">
+          Our Board
         </Link>
       </Menu>
     </>
