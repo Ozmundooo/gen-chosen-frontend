@@ -31,15 +31,15 @@ export default function Footer() {
           <div className="flex gap-4  my-4 lg:mb-2 lg:mt-6 justify-center">
             <SocialIcon
               className="grayscale opacity-70 hover:opacity-100 hover:grayscale-0 duration-500"
-              url="https://instagram.com/jaketrent"
+              url="https://www.instagram.com/gen_chos3n/?hl=en"
             />
             <SocialIcon
               className="grayscale hover:grayscale-0 duration-500"
-              url="https://twitter.com/jaketrent"
+              url="https://twitter.com/GEN_CHOS3N"
             />
             <SocialIcon
-              className="opacity-50 grayscale hover:grayscale-0 hover:opacity-100 duration-500"
-              url="https://tiktok.com/jaketrent"
+              className="opacity-70 grayscale hover:grayscale-0 hover:opacity-100 duration-500"
+              url="https://www.facebook.com/genchosen"
             />
           </div>
           {/* Links */}
