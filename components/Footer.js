@@ -17,11 +17,11 @@ export default function Footer() {
           </p>
           <div className="flex justify-center font-['Open Sans'] mt-3">
             <input
-              className="border border-black p-5 text-lg"
+              className="border border-black lg:p-5 p-2 text-lg"
               type="text"
               placeholder="Enter your email"
             ></input>
-            <button className="p-5 px-8 font-['Open Sans'] text-lg  border-black border-4 font-semibold bg-[#D9D9D9]">
+            <button className="lg:p-5 p-2 px-6 font-['Open Sans'] text-lg  border-black border-4 font-semibold bg-[#D9D9D9]">
               Subscribe
             </button>
           </div>
@@ -68,10 +68,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="py-4 bg-black text-center font-semibold">
-          <p className="text-md text-white lg:text-lg  py-1 font-['Open Sans'] ">
+          <p className="text-sm text-white lg:text-lg  py-1 font-['Open Sans'] ">
             Copyright © 2023 All rights reserved - Gen_Chos3n
           </p>
-          <p className="text-md text-white lg:text-lg py-1  font-['Open Sans'] ">
+          <p className="text-sm text-white lg:text-lg py-1  font-['Open Sans'] ">
             Powered By OAD
           </p>
         </div>

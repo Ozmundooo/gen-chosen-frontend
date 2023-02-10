@@ -19,7 +19,7 @@ export default function ProgramCard({ program }) {
   return (
     <Link
       className=" cursor"
-      href={`work/${program.slug.current}`}
+      href={`program/${program.slug.current}`}
       key={program.id}
     >
       <div className="w-[320px] lg:w-[400px]">
@@ -30,11 +30,7 @@ export default function ProgramCard({ program }) {
           className="h-[250px]  object-cover mb-2"
           src={urlFor(program.mainImage)}
         ></img>
-        <PortableText
-          className="line-clamp-3"
-          value={program.content}
-          components={components}
-        />
+        <PortableText value={program.content} components={components} />{" "}
         <p className="font-['Open Sans'] font-semibold mt-3 underline">
           See more
         </p>
