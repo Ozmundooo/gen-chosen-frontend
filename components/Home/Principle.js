@@ -8,11 +8,11 @@ export default function Principles({ principles }) {
         Principles
       </h3>
       <div className="lg:hidden">
-        {/* <Carousel>
+        <Carousel>
           {principles.map((principles) => (
             <PillarCard pillar={principles} />
           ))}
-        </Carousel> */}
+        </Carousel>
       </div>
       <div className="hidden lg:flex flex-wrap justify-center mx-5 my-10">
         {principles.map((principles) => (

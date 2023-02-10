@@ -22,7 +22,7 @@ export default function ProgramCard({ program }) {
       href={`program/${program.slug.current}`}
       key={program.id}
     >
-      <div className="w-[320px] lg:w-[400px]">
+      <div className="w-[320px] lg:w-[400px] mb-4 snap-start">
         <h3 className="text-xl font-bold lg:text-2xl font-['Philosopher'] py-2">
           {program.title}
         </h3>
