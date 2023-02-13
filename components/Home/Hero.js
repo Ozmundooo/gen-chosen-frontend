@@ -5,12 +5,12 @@ export default function Hero() {
   return (
     <>
       <div className="">
-        <div class="relative ">
+        <div className="relative ">
           <Image
             src={HomeHero}
             className="h-[50vh] lg:h-[90vh] brightness-[30%] object-cover  w-full"
           />
-          <div class="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
+          <div className="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
             <h2 className="text-2xl lg:text-4xl font-['Raleway']  mb-5">
               Gen Chosen
             </h2>

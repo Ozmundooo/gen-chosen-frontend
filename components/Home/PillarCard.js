@@ -1,8 +1,11 @@
 import React from "react";
 import { urlFor } from "../../lib/sanity/client";
-export default function PillarCard({ pillar }) {
+export default function PillarCard({ pillar, index }) {
   return (
-    <div className="lg:w-full group shadow-2xl lg:hover:px-8 duration-500 px-10 py-2  rounded-lg">
+    <div
+      className="lg:w-full group shadow-2xl lg:hover:px-8 duration-500 px-10 py-2  rounded-lg"
+      key={pillar._id}
+    >
       <div className="  my-5" key={pillar.title}>
         <img
           className="group-hover:w-[300px] w-[100px] group-hover:pt-10 duration-700 group-hover:duration-500 ease-out"

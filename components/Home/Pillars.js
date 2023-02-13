@@ -15,8 +15,8 @@ export default function Pillars({ pillars }) {
         centuries,
       </p>
       <div className=" grid  grid-cols-1 lg:grid-cols-2 place-items-center xl:mx-24 mx-4 my-10 gap-10  ">
-        {pillars.map((pillar) => (
-          <PillarCard pillar={pillar} />
+        {pillars.map((pillar, i) => (
+          <PillarCard pillar={pillar} index={i} />
         ))}
       </div>
     </>

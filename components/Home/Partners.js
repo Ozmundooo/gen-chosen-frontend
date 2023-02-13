@@ -6,10 +6,10 @@ export default function Partners({ partners }) {
       <h3 className="text-3xl mb-10 text-center font-bold lg:text-4xl font-['Raleway'] py-2 mt-20 ">
         Our Partners
       </h3>
-      <div class="slider  ">
-        <div class="slide-track">
+      <div className="slider  ">
+        <div className="slide-track">
           {partners.map((partner) => (
-            <div class="slide mx-8 my-auto">
+            <div className="slide mx-8 my-auto">
               <img src={urlFor(partner.mainImage)} height="70" alt="" />
             </div>
           ))}
