@@ -8,10 +8,10 @@ export default function program({ title, mainImage, content, imagesGallery }) {
     block: {
       // Ex. 1: customizing common block types
       h1: ({ children }) => (
-        <h1 className="text-md  font-['Open Sans']">{children}</h1>
+        <h1 className="text-md  font-['Poppins']">{children}</h1>
       ),
       normal: ({ children }) => (
-        <p className="text-md  font-['Open Sans'] mb-4 lg:mb-6">{children}</p>
+        <p className="text-md  font-['Poppins'] mb-4 lg:mb-6">{children}</p>
       ),
     },
   };
@@ -23,13 +23,13 @@ export default function program({ title, mainImage, content, imagesGallery }) {
             src={urlFor(mainImage)}
             className="opacity-[80%] brightness-50 object-cover h-[30vh] xl:h-[45vh] w-full"
           />
-          <h1 class="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Philosopher'] text-white font-semibold">
+          <h1 class="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
             {title}
           </h1>
         </div>
       </div>
       <div className="mx-5 mb-8 lg:w-[80vw]">
-        <h3 className="text-xl font-bold lg:text-2xl font-['Philosopher'] py-2">
+        <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] py-2">
           {title}
         </h3>
         <PortableText value={content} components={components} />

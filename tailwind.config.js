@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        open: ["Open Sans", "sans-serif"],
-        phil: ["Philosopher", "sans-serif"],
+        open: ["Poppins", "sans-serif"],
+        phil: ["Raleway", "sans-serif"],
       },
     },
   },

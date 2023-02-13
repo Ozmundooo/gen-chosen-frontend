@@ -13,7 +13,7 @@ export default function programs({ videos }) {
             src={programHero}
             className="opacity-[40%] object-cover  xl:h-[30vh] w-full"
           />
-          <h1 class="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Philosopher'] text-white font-semibold">
+          <h1 class="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
             Videos
           </h1>
         </div>
@@ -23,7 +23,7 @@ export default function programs({ videos }) {
         {videos.map((video) => (
           <>
             <div className="flex flex-col place-items-center">
-              <h3 className="text-xl font-bold lg:text-2xl font-['Philosopher'] py-2">
+              <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] py-2">
                 {video.title}
               </h3>
               <iframe

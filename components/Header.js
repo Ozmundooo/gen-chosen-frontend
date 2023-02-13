@@ -12,7 +12,7 @@ export default function Header() {
             <Image className=" w-[100px] lg:w-20" src={Logo} alt="logo" />
           </Link>
         </div>
-        <div className="font-['Open Sans'] font-semibold text-black ">
+        <div className="font-['Poppins'] font-normal text-black ">
           <ul className="lg:flex hidden flex-row align-middle gap-8 text-lg">
             <Link href="/ourboard">
               <li>Our Board</li>

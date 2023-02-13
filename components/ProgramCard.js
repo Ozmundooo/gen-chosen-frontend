@@ -8,10 +8,10 @@ export default function ProgramCard({ program }) {
     block: {
       // Ex. 1: customizing common block types
       h1: ({ children }) => (
-        <h1 className="text-md line-clamp-1 font-['Open Sans']">{children}</h1>
+        <h1 className="text-md line-clamp-1 font-['Poppins']">{children}</h1>
       ),
       normal: ({ children }) => (
-        <p className="text-md line-clamp-1 font-['Open Sans']">{children}</p>
+        <p className="text-md line-clamp-1 font-['Poppins']">{children}</p>
       ),
     },
   };
@@ -23,7 +23,7 @@ export default function ProgramCard({ program }) {
       key={program.id}
     >
       <div className="w-[320px] lg:w-[400px] mb-4 snap-start">
-        <h3 className="text-xl font-bold lg:text-2xl font-['Philosopher'] py-2">
+        <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] py-2">
           {program.title}
         </h3>
         <img
@@ -31,7 +31,7 @@ export default function ProgramCard({ program }) {
           src={urlFor(program.mainImage)}
         ></img>
         <PortableText value={program.content} components={components} />{" "}
-        <p className="font-['Open Sans'] font-semibold mt-3 underline">
+        <p className="font-['Poppins'] font-semibold mt-3 underline">
           See more
         </p>
       </div>

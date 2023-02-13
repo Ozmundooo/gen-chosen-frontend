@@ -8,20 +8,20 @@ export default function Footer() {
       <footer className="">
         <div className="text-center py-6 border border-black border-y-4">
           {" "}
-          <h2 className="text-3xl font-bold lg:text-4xl font-['Philosopher']">
+          <h2 className="text-3xl font-bold lg:text-4xl font-['Raleway']">
             Sign up to our newsletter
           </h2>
-          <p className="text-md lg:text-lg  py-4 font-['Open Sans'] ">
+          <p className="text-md lg:text-lg  py-4 font-['Poppins'] ">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
-          <div className="flex justify-center font-['Open Sans'] mt-3">
+          <div className="flex justify-center font-['Poppins'] mt-3">
             <input
               className="border border-black lg:p-5 p-2 text-lg"
               type="text"
               placeholder="Enter your email"
             ></input>
-            <button className="lg:p-5 p-2 px-6 font-['Open Sans'] text-lg  border-black border-4 font-semibold bg-[#D9D9D9]">
+            <button className="lg:p-5 p-2 px-6 font-['Poppins'] text-lg  border-black border-4 font-semibold bg-[#D9D9D9]">
               Subscribe
             </button>
           </div>
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
           {/* Links */}
           <div className="text-center hidden lg:block py-4">
-            <h3 className="text-2xl py-1 font-['Open Sans'] ">
+            <h3 className="text-2xl py-1 font-['Poppins'] ">
               <Link className="hover:underline" href="/ourboard">
                 Our Board
               </Link>{" "}
@@ -68,10 +68,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="py-4 bg-black text-center font-semibold">
-          <p className="text-sm text-white lg:text-lg  py-1 font-['Open Sans'] ">
+          <p className="text-sm text-white lg:text-lg  py-1 font-['Poppins'] ">
             Copyright © 2023 All rights reserved - Gen_Chos3n
           </p>
-          <p className="text-sm text-white lg:text-lg py-1  font-['Open Sans'] ">
+          <p className="text-sm text-white lg:text-lg py-1  font-['Poppins'] ">
             Powered By OAD
           </p>
         </div>
