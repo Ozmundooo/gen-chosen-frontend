@@ -1,6 +1,6 @@
 import React from "react";
 import PillarCard from "./PillarCard";
-import Carousel from "react-elastic-carousel";
+
 export default function Pillars({ pillars }) {
   return (
     <>

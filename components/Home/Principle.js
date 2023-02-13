@@ -1,6 +1,5 @@
 import React from "react";
 import PrincipleCard from "./PrincipleCard";
-import Carousel from "react-elastic-carousel";
 export default function Principles({ principles }) {
   return (
     <>
@@ -14,13 +13,7 @@ export default function Principles({ principles }) {
         scrambled it to make a type specimen book. It has survived not only five
         centuries,
       </p>
-      {/* <div className="lg:hidden">
-        <Carousel>
-          {principles.map((principles) => (
-            <PillarCard pillar={principles} />
-          ))}
-        </Carousel>
-      </div> */}
+
       <div className="hidden lg:flex flex-wrap justify-center mx-5 my-10">
         {principles.map((principle) => (
           <PrincipleCard principle={principle} />
