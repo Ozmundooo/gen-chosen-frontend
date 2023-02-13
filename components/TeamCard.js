@@ -19,9 +19,7 @@ export default function TeamCard({ member }) {
         <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] ">
           {member.title}
         </h3>
-        <span className=" font-light underline font-['Raleway'] pb-4">
-          {member.type}
-        </span>
+        <span className="  underline font-['Raleway'] pb-4">{member.type}</span>
         <img
           className="h-[250px]  object-cover mt-4 mb-2"
           src={urlFor(member.image)}

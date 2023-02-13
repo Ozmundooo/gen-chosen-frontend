@@ -18,7 +18,7 @@ export default function ourboard({ boards }) {
           </h1>
         </div>
       </div>
-      <div className="mt-20">
+      <div className="mt-20 xl:w-5/6 xl:mx-auto">
         {boards.map((board, i) => (
           <BoardCard board={board} index={i} />
         ))}

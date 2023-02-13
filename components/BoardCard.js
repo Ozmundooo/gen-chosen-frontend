@@ -10,7 +10,7 @@ export default function BoardCard({ board, index }) {
         <h1 className="text-md line-clamp-1 font-['Poppins']">{children}</h1>
       ),
       normal: ({ children }) => (
-        <p className="text-md font-['Poppins'] w-3/4">{children}</p>
+        <p className="text-md font-['Poppins'] mt-3">{children}</p>
       ),
     },
   };
@@ -28,9 +28,10 @@ export default function BoardCard({ board, index }) {
           src={urlFor(board.image)}
         ></img>
         <div className="w-1/2">
-          <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] py-2">
+          <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] pt-2">
             {board.title}
           </h3>
+          <span className="  underline font-['Raleway'] ">{board.type}</span>
           <PortableText value={board.content} components={components} />{" "}
         </div>
       </div>

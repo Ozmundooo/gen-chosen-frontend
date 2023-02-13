@@ -28,13 +28,13 @@ export default function program({ title, mainImage, content, imagesGallery }) {
           </h1>
         </div>
       </div>
-      <div className="mx-5 mb-8 lg:w-[80vw]">
+      <div className="mx-5 mb-8 lg:ml-20 lg:w-[80vw]">
         <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] py-2">
           {title}
         </h3>
         <PortableText value={content} components={components} />
         {imagesGallery.map((image) => (
-          <img className="my-4 w-full" src={urlFor(image)}></img>
+          <img className="my-4 " src={urlFor(image)}></img>
         ))}
       </div>
     </>
