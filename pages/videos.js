@@ -21,7 +21,7 @@ export default function programs({ videos }) {
       </div>
 
       <div className="grid xl:grid-cols-2 md:grid-cols-2 gap-3 place-items-center my-14">
-        {/* {videos.map((video, i) => (
+        {videos.map((video, i) => (
           <>
             <div className="flex flex-col place-items-center" key={i}>
               <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] py-2">
@@ -37,7 +37,7 @@ export default function programs({ videos }) {
               ></iframe>
             </div>
           </>
-        ))} */}
+        ))}
       </div>
     </div>
   );
