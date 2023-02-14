@@ -6,22 +6,25 @@ export default function Footer() {
   return (
     <>
       <footer className="">
-        <div className="text-center py-6 border border-black border-y-4">
+        <div className="flex text-center justify-between py-6 border border-black border-y-4 align-middle">
           {" "}
-          <h2 className="text-3xl font-bold lg:text-4xl font-['Raleway']">
-            Sign up to our newsletter
-          </h2>
-          <p className="text-md lg:text-lg  py-4 font-['Poppins'] ">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
-          <div className="flex justify-center font-['Poppins'] mt-3">
+          <div className="text-left ml-20 my-10 w-1/2">
+            <h2 className="text-3xl font-bold lg:text-4xl font-['Raleway']">
+              Sign up to our newsletter
+            </h2>
+            <p className="text-md lg:text-lg  py-4 font-['Poppins'] ">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry.
+            </p>
+          </div>
+          <div className="flex justify-center font-['Poppins'] mr-20 my-auto w-1/2">
             <input
-              className="border border-black lg:p-5 p-2 text-lg"
+              className="border border-black lg:p-5  p-2 text-lg  h-[75px]"
               type="text"
               placeholder="Enter your email"
             ></input>
-            <button className="lg:p-5 p-2 px-6 font-['Poppins'] text-lg  border-black border-4 font-semibold bg-[#D9D9D9]">
+            <button className="lg:p-5 p-2 px-6 font-['Poppins'] text-lg  border-black border-4 font-semibold bg-[#D9D9D9] h-[75px]">
               Subscribe
             </button>
           </div>
