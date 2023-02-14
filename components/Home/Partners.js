@@ -8,8 +8,8 @@ export default function Partners({ partners }) {
       </h3>
       <div className="slider  ">
         <div className="slide-track">
-          {partners.map((partner) => (
-            <div className="slide mx-8 my-auto">
+          {partners.map((partner, i) => (
+            <div className="slide mx-8 my-auto" key={i}>
               <img src={urlFor(partner.mainImage)} height="70" alt="" />
             </div>
           ))}

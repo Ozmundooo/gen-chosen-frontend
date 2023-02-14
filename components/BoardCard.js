@@ -22,6 +22,7 @@ export default function BoardCard({ board, index }) {
             ? "flex group mb-4 place-items-center gap-4 mx-20"
             : "flex flex-row-reverse mb-4 place-items-center gap-4 mx-20"
         }
+        key={board._id}
       >
         <img
           className="w-1/2  object-cover mb-2"

@@ -18,12 +18,12 @@ export default function program({ title, mainImage, content, imagesGallery }) {
   return (
     <>
       <div className="mb-8">
-        <div class="relative ">
+        <div className="relative ">
           <img
             src={urlFor(mainImage)}
             className="opacity-[80%] brightness-50 object-cover h-[30vh] xl:h-[45vh] w-full"
           />
-          <h1 class="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
+          <h1 className="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
             {title}
           </h1>
         </div>
@@ -33,8 +33,8 @@ export default function program({ title, mainImage, content, imagesGallery }) {
           {title}
         </h3>
         <PortableText value={content} components={components} />
-        {imagesGallery.map((image) => (
-          <img className="my-4 " src={urlFor(image)}></img>
+        {imagesGallery.map((image, i) => (
+          <img key={i} className="my-4 " src={urlFor(image)}></img>
         ))}
       </div>
     </>

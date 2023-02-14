@@ -8,19 +8,20 @@ export default function ourboard({ boards }) {
   return (
     <>
       <div className="">
-        <div class="relative ">
+        <div className="relative ">
           <Image
             src={ourBoardHero}
             className="opacity-[40%] object-cover  xl:h-[30vh] w-full"
+            alt="Our Board Background"
           />
-          <h1 class="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
+          <h1 className="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
             Our Board
           </h1>
         </div>
       </div>
       <div className="mt-20 xl:w-5/6 xl:mx-auto">
         {boards.map((board, i) => (
-          <BoardCard board={board} index={i} />
+          <BoardCard board={board} index={i} key={i} />
         ))}
       </div>
     </>

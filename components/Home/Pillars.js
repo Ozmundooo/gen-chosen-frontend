@@ -14,11 +14,11 @@ export default function Pillars({ pillars }) {
         scrambled it to make a type specimen book. It has survived not only five
         centuries,
       </p>
-      <div className=" grid  grid-cols-1 lg:grid-cols-2 place-items-center xl:mx-24 mx-4 my-10 gap-10  ">
+      <ul className=" grid  grid-cols-1 lg:grid-cols-2 place-items-center xl:mx-24 mx-4 my-10 gap-10  ">
         {pillars.map((pillar, i) => (
-          <PillarCard pillar={pillar} index={i} />
+          <PillarCard pillar={pillar} key={i} />
         ))}
-      </div>
+      </ul>
     </>
   );
 }

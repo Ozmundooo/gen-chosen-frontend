@@ -8,20 +8,21 @@ export default function programs({ programs }) {
   return (
     <div>
       <div className="">
-        <div class="relative ">
+        <div className="relative ">
           <Image
             src={programHero}
             className="opacity-[40%] object-cover  xl:h-[30vh] w-full"
+            alt="image of the team participating in an events"
           />
-          <h1 class="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
+          <h1 className="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
             Programs
           </h1>
         </div>
       </div>
 
       <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-3 place-items-center my-10">
-        {programs.map((program) => (
-          <ProgramCard program={program} />
+        {programs.map((program, i) => (
+          <ProgramCard program={program} key={i} />
         ))}
       </div>
     </div>

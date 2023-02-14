@@ -15,8 +15,8 @@ export default function Principles({ principles }) {
       </p>
 
       <div className="hidden lg:flex flex-wrap justify-center mx-5 my-10">
-        {principles.map((principle) => (
-          <PrincipleCard principle={principle} />
+        {principles.map((principle, i) => (
+          <PrincipleCard principle={principle} key={i} />
         ))}
       </div>
     </>

@@ -8,8 +8,8 @@ export default function ProgramScroll({ programs }) {
         Our Programs
       </h3>
       <div className="ml-10 lg:ml-24 flex overflow-x-auto overflow-scroll gap-8 snap-x">
-        {programs.map((program) => (
-          <ProgramCard program={program} />
+        {programs.map((program, i) => (
+          <ProgramCard program={program} key={i} />
         ))}
       </div>
     </>

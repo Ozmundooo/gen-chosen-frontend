@@ -8,21 +8,22 @@ export default function programs({ videos }) {
   return (
     <div>
       <div className="">
-        <div class="relative ">
+        <div className="relative ">
           <Image
             src={programHero}
             className="opacity-[40%] object-cover  xl:h-[30vh] w-full"
+            alt="image of a Gen chosen at event"
           />
-          <h1 class="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
+          <h1 className="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
             Videos
           </h1>
         </div>
       </div>
 
       <div className="grid xl:grid-cols-2 md:grid-cols-2 gap-3 place-items-center my-14">
-        {videos.map((video) => (
+        {/* {videos.map((video, i) => (
           <>
-            <div className="flex flex-col place-items-center">
+            <div className="flex flex-col place-items-center" key={i}>
               <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] py-2">
                 {video.title}
               </h3>
@@ -36,7 +37,7 @@ export default function programs({ videos }) {
               ></iframe>
             </div>
           </>
-        ))}
+        ))} */}
       </div>
     </div>
   );

@@ -2,9 +2,9 @@ import React from "react";
 import { urlFor } from "../../lib/sanity/client";
 export default function PillarCard({ pillar, index }) {
   return (
-    <div
+    <li
       className="lg:w-full group shadow-2xl lg:hover:px-8 duration-500 px-10 py-2  rounded-lg"
-      key={pillar._id}
+      key={index}
     >
       <div className="  my-5" key={pillar.title}>
         <img
@@ -20,6 +20,6 @@ export default function PillarCard({ pillar, index }) {
           {pillar.description}
         </p>
       </div>
-    </div>
+    </li>
   );
 }
