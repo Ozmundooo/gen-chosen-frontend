@@ -3,6 +3,7 @@ import Logo from "../assets/Logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import Sidebar from "./Sidebar";
+import Head from "next/head";
 export default function Header() {
   return (
     <>

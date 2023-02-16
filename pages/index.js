@@ -13,6 +13,10 @@ import { partnersQuery } from "../lib/sanity/partnersQuery";
 export default function Home({ pillars, principles, programs, partners }) {
   return (
     <>
+      <Head>
+        <title>Generation Chosen</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Hero />
       <Pillars pillars={pillars} />
 
