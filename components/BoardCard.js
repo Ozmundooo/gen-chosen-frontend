@@ -19,16 +19,16 @@ export default function BoardCard({ board, index }) {
       <div
         className={
           index % 2 === 0
-            ? "flex group mb-4 place-items-center gap-4 mx-20"
-            : "flex flex-row-reverse mb-4 place-items-center gap-4 mx-20"
+            ? "lg:flex group mb-4 place-items-center gap-4 mx-20"
+            : "lg:flex lg:flex-row-reverse mb-4 place-items-center gap-4 mx-20"
         }
         key={board._id}
       >
         <img
-          className="w-1/2  object-cover mb-2"
+          className="lg:w-1/2  object-cover mb-2"
           src={urlFor(board.image)}
         ></img>
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] pt-2">
             {board.title}
           </h3>

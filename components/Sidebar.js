@@ -23,9 +23,9 @@ function Sidebar() {
         <Link href="/contact" className="font-bold text-xl">
           Contact
         </Link>
-        <Link href="/donate" className="font-bold text-xl">
+        {/* <Link href="/donate" className="font-bold text-xl">
           Donate
-        </Link>
+        </Link> */}
       </Menu>
     </>
   );
