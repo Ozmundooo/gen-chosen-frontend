@@ -8,15 +8,13 @@ export default function PillarCard({ pillar, index }) {
     >
       <div className="  my-5" key={pillar.title}>
         <img
-          className="group-hover:w-[300px] w-[100px] group-hover:pt-10 duration-700 group-hover:duration-500 ease-out"
+          className="group-hover:w-[200px] w-[100px] group-hover:py-5 duration-700 group-hover:duration-500 ease-out"
           src={urlFor(pillar.image)}
         />
         <h3 className="text-2xl font-semibold lg:text-4xl font-['Raleway'] py-2">
           {pillar.title}
         </h3>
-        <p className="text-md lg:text-lg font-['Poppins'] py-2 text-black ">
-          {pillar.description}
-          {pillar.description}
+        <p className="text-md lg:text-lg font-['Poppins'] py-2 text-black">
           {pillar.description}
         </p>
       </div>

@@ -11,11 +11,10 @@ export default function ProgramCard({ program }) {
         <h1 className="text-md line-clamp-1 font-['Poppins']">{children}</h1>
       ),
       normal: ({ children }) => (
-        <p className="text-md line-clamp-1 font-['Poppins']">{children}</p>
+        <p className="text-md line-clamp-2 font-['Poppins']">{children}</p>
       ),
     },
   };
-
   return (
     <Link
       className=" cursor"
@@ -30,7 +29,11 @@ export default function ProgramCard({ program }) {
           className="h-[250px]  object-cover mb-2"
           src={urlFor(program.mainImage)}
         ></img>
-        <PortableText value={program.content} components={components} />{" "}
+        <PortableText
+          className="text-md line-clamp-1 font-['Poppins']"
+          value={program.content[0]}
+          components={components}
+        />{" "}
         <p className="font-['Poppins'] font-semibold mt-3 underline">
           See more
         </p>

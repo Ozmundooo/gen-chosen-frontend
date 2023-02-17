@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../assets/Logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import Sidebar from "./Sidebar";
-import Head from "next/head";
+
+import "react-responsive-modal/styles.css";
+import { Modal } from "react-responsive-modal";
 export default function Header() {
+  const [open, setOpen] = useState(false);
+
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
+
   return (
     <>
       <header className="flex lg:justify-between lg:p-10 lg:py-2 p-4 align-middle  lg:place-items-center bg-white">
@@ -51,7 +58,10 @@ export default function Header() {
             >
               <li>Contact</li>
             </Link>
-            <div className="hover:underline underline-offset-1 hover:underline-offset-4 duration-[10000ms] ease-in-out cursor-pointer ">
+            <div
+              className="hover:underline underline-offset-1 hover:underline-offset-4 duration-[10000ms] ease-in-out cursor-pointer "
+              onClick={() => onOpenModal()}
+            >
               <li>Donate</li>
             </div>
           </ul>
@@ -60,6 +70,18 @@ export default function Header() {
           <Sidebar />
         </div>
       </header>
+      <Modal open={open} onClose={onCloseModal} center>
+        <div className="">
+          <h2 className="p- text-xl font-semibold ">Donate </h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries,
+          </p>
+        </div>
+      </Modal>
     </>
   );
 }
