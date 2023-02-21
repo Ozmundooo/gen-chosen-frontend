@@ -24,7 +24,7 @@ export default function programs({ videos }) {
         {videos.map((video, i) => (
           <>
             <div className="flex flex-col place-items-center" key={i}>
-              <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] py-2">
+              <h3 className="text-xl font-bold text-center lg:text-2xl font-['Raleway'] py-2">
                 {video.title}
               </h3>
               <iframe

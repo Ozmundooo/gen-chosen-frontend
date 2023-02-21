@@ -20,7 +20,7 @@ export default function ourteam({ team }) {
           </h1>
         </div>
       </div>
-      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 place-items-center">
+      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 place-items-center">
         {team.map((member, i) => (
           <TeamCard member={member} key={i} />
         ))}

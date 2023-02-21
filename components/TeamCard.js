@@ -9,19 +9,19 @@ export default function TeamCard({ member }) {
         <h1 className="text-md line-clamp-1 font-['Poppins']">{children}</h1>
       ),
       normal: ({ children }) => (
-        <p className="text-md font-['Poppins']">{children}</p>
+        <p className="text-md font-['Poppins'] mb-4 lg:mb-6">{children}</p>
       ),
     },
   };
   return (
     <>
-      <div className="w-[320px] lg:w-[375px] mb-4 snap-start">
+      <div className="w-full lg:w-4/6 mb-4 px-5 lg:px-0 snap-start group">
         <h3 className="text-xl font-bold lg:text-2xl font-['Raleway'] ">
           {member.title}
         </h3>
         <span className="  underline font-['Raleway'] pb-4">{member.type}</span>
         <img
-          className="h-[250px]  object-cover mt-4 mb-2"
+          className="h-[300px] lg:h-1/2 lg:w-1/2  object-cover mt-4 mb-2"
           src={urlFor(member.image)}
         ></img>
         <PortableText value={member.content} components={components} />{" "}
