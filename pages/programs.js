@@ -4,28 +4,35 @@ import { sanityClient } from "../lib/sanity/client";
 import { programsQuery } from "../lib/sanity/programsQuery";
 import programHero from "../assets/HomeHeroBg.png";
 import Image from "next/image";
+import Head from "next/head";
 export default function programs({ programs }) {
   return (
-    <div>
-      <div className="">
-        <div className="relative ">
-          <Image
-            src={programHero}
-            className="opacity-[40%] object-cover  xl:h-[30vh] w-full"
-            alt="image of the team participating in an events"
-          />
-          <h1 className="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
-            Programs
-          </h1>
+    <>
+      <Head>
+        <title>Generation Chosen: Our Team</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <div>
+        <div className="">
+          <div className="relative ">
+            <Image
+              src={programHero}
+              className="opacity-[40%] object-cover  xl:h-[30vh] w-full"
+              alt="image of the team participating in an events"
+            />
+            <h1 className="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
+              Programs
+            </h1>
+          </div>
+        </div>
+
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-3 place-items-center my-10">
+          {programs.map((program, i) => (
+            <ProgramCard program={program} key={i} />
+          ))}
         </div>
       </div>
-
-      <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-3 place-items-center my-10">
-        {programs.map((program, i) => (
-          <ProgramCard program={program} key={i} />
-        ))}
-      </div>
-    </div>
+    </>
   );
 }
 

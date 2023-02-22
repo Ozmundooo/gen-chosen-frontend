@@ -10,7 +10,7 @@ export default function ourteam({ team }) {
   return (
     <>
       <Head>
-        <title>Generation Chosen: Programs</title>
+        <title>Generation Chosen: Our Team</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="">
