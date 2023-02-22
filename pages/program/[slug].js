@@ -3,6 +3,7 @@ import { sanityClient, urlFor } from "../../lib/sanity/client";
 import { programPageQuery } from "../../lib/sanity/programPageQuery";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
+import Head from "next/head";
 export default function program({ title, mainImage, content, imagesGallery }) {
   const components = {
     block: {

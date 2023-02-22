@@ -4,6 +4,7 @@ import { boardQuery } from "../lib/sanity/boardQuery";
 import ourBoardHero from "../assets/HomeHeroBg.png";
 import Image from "next/image";
 import BoardCard from "../components/BoardCard";
+import Head from "next/head";
 export default function ourboard({ boards }) {
   return (
     <>

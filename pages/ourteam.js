@@ -5,6 +5,7 @@ import { teamQuery } from "../lib/sanity/teamQuery";
 import ourTeamHero from "../assets/HomeHeroBg.png";
 import Image from "next/image";
 import TeamCard from "../components/TeamCard";
+import Head from "next/head";
 export default function ourteam({ team }) {
   return (
     <>

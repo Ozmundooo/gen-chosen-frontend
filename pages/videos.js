@@ -4,10 +4,10 @@ import { sanityClient } from "../lib/sanity/client";
 import { videosQuery } from "../lib/sanity/videosQuery";
 import programHero from "../assets/HomeHeroBg.png";
 import Image from "next/image";
+import Head from "next/head";
 export default function programs({ videos }) {
   return (
     <>
-      {" "}
       <Head>
         <title>Generation Chosen: Videos</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
