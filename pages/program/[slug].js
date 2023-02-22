@@ -17,6 +17,10 @@ export default function program({ title, mainImage, content, imagesGallery }) {
   };
   return (
     <>
+      <Head>
+        <title>Generation Chosen: {title}</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="mb-8">
         <div className="relative ">
           <img

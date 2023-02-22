@@ -7,6 +7,11 @@ import BoardCard from "../components/BoardCard";
 export default function ourboard({ boards }) {
   return (
     <>
+      {" "}
+      <Head>
+        <title>Generation Chosen: Our Board</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="">
         <div className="relative ">
           <Image
