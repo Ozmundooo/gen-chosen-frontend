@@ -2,7 +2,7 @@ import React from "react";
 
 import { sanityClient } from "../lib/sanity/client";
 import { teamQuery } from "../lib/sanity/teamQuery";
-import ourTeamHero from "../assets/OurteamHero.jpg";
+import ourTeamHero from "../assets/OurTeamHero.jpg";
 import Image from "next/image";
 import TeamCard from "../components/TeamCard";
 import Head from "next/head";
