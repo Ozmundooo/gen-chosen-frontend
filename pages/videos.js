@@ -2,7 +2,7 @@ import React from "react";
 import ProgramCard from "../components/ProgramCard";
 import { sanityClient } from "../lib/sanity/client";
 import { videosQuery } from "../lib/sanity/videosQuery";
-import programHero from "../assets/HomeHeroBg.png";
+import videoHero from "../assets/videosHero.JPG";
 import Image from "next/image";
 import Head from "next/head";
 export default function programs({ videos }) {
@@ -16,8 +16,8 @@ export default function programs({ videos }) {
         <div className="">
           <div className="relative ">
             <Image
-              src={programHero}
-              className="opacity-[40%] object-cover  xl:h-[30vh] w-full"
+              src={videoHero}
+              className="opacity-[50%] object-cover object-top brightness-[25%] h-[30vh]  xl:h-[40vh] w-full"
               alt="image of a Gen chosen at event"
             />
             <h1 className="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
