@@ -9,7 +9,7 @@ export default function programs({ programs }) {
   return (
     <>
       <Head>
-        <title>Generation Chosen: Our Team</title>
+        <title>Generation Chosen: Our Programs</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div>
