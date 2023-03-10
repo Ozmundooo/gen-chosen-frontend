@@ -2,7 +2,7 @@ import React from "react";
 import ProgramCard from "../components/ProgramCard";
 import { sanityClient } from "../lib/sanity/client";
 import { programsQuery } from "../lib/sanity/programsQuery";
-import videoHero from "../assets/programHero.jpg";
+import videoHero from "../assets/programHero.JPG";
 import Image from "next/image";
 import Head from "next/head";
 export default function programs({ programs }) {
