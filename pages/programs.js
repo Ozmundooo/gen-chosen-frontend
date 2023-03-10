@@ -2,7 +2,7 @@ import React from "react";
 import ProgramCard from "../components/ProgramCard";
 import { sanityClient } from "../lib/sanity/client";
 import { programsQuery } from "../lib/sanity/programsQuery";
-import programHero from "../assets/ProgramHero.jpg";
+import videoHero from "../assets/videosHero.jpg";
 import Image from "next/image";
 import Head from "next/head";
 export default function programs({ programs }) {
@@ -16,7 +16,7 @@ export default function programs({ programs }) {
         <div className="">
           <div className="relative ">
             <Image
-              src={programHero}
+              src={videoHero}
               className="opacity-[50%] object-cover object-top brightness-[25%] h-[30vh]  xl:h-[40vh] w-full"
               alt="image of the team participating in an events"
             />
