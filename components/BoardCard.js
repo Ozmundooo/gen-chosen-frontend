@@ -25,7 +25,7 @@ export default function BoardCard({ board, index }) {
         key={board._id}
       >
         <img
-          className="lg:w-1/2 w-full  object-cover mb-2"
+          className="lg:w-1/2 w-3/4  object-cover mb-2"
           src={urlFor(board.image)}
         ></img>
         <div className="lg:w-1/2">

@@ -3,11 +3,11 @@ import React from "react";
 export default function ContactForm() {
   return (
     <>
-      <div className="lg:w-[60vw] mx-auto  border-black border-4 my-10">
+      <div className="lg:w-[60vw] w-5/6 mx-auto  border-black border-4 my-10">
         <h3 className="text-3xl  text-center font-bold lg:text-4xl font-['Raleway'] my-10">
           Contact Us
         </h3>
-        <form className="lg:w-3/4 gap-4 mx-10">
+        <form className="lg:w-3/4 lg:mx-auto gap-4 mx-10">
           <div className="w-full flex flex-col lg:flex-row align-middle gap-4 mb-5">
             <input
               className="border border-black lg:p-5 p-2 text-lg w-full lg:w-1/2"
