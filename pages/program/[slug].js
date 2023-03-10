@@ -38,9 +38,9 @@ export default function program({ title, mainImage, content, imagesGallery }) {
           {title}
         </h3>
         <PortableText value={content} components={components} />
-        {imagesGallery.map((image, i) => (
+        {/* {imagesGallery.map((image, i) => (
           <img key={i} className="my-4 " src={urlFor(image)}></img>
-        ))}
+        ))} */}
       </div>
     </>
   );

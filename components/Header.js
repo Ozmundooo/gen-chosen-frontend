@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="flex lg:justify-between lg:p-10 lg:py-2 p-4 align-middle  lg:place-items-center bg-white">
+      <header className="flex lg:justify-between lg:p-10 lg:py-6 p-4 align-middle  lg:place-items-center bg-white">
         <div>
           <Link href="/">
             <Image className=" w-[100px] lg:w-20" src={Logo} alt="logo" />
@@ -74,11 +74,8 @@ export default function Header() {
         <div className="">
           <h2 className="p- text-xl font-semibold ">Donate </h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries,
+            If you would like to financially support our organization e-transfer
+            generationchosenone@gmail.com and use the password chosenone
           </p>
         </div>
       </Modal>
