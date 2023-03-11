@@ -17,7 +17,7 @@ function Sidebar() {
         <Link href="/videos" className="font-bold text-xl">
           Videos
         </Link>
-        <Link href="/shop" className="font-bold text-xl">
+        <Link href="https://www.anchorshop.org" className="font-bold text-xl">
           Shop
         </Link>
         <Link href="/contact" className="font-bold text-xl">
