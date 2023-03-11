@@ -75,7 +75,7 @@ export default function Header() {
           <h2 className="p- text-xl font-semibold ">Donate </h2>
           <p>
             If you would like to financially support our organization e-transfer
-            generationchosenone@gmail.com and use the password chosenon
+            generationchosenone@gmail.com and use the password chosenone
           </p>
         </div>
       </Modal>
