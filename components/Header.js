@@ -30,9 +30,9 @@ export default function Header() {
             </Link>
             <Link
               className="hover:underline underline-offset-1 hover:underline-offset-4 duration-[10000ms] ease-in-out"
-              href="/ourteam"
+              href="/ourtherapists"
             >
-              <li>Our Team</li>
+              <li>Our Therapists</li>
             </Link>
             <Link
               className="hover:underline underline-offset-1 hover:underline-offset-4 duration-[10000ms] ease-in-out"

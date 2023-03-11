@@ -10,7 +10,7 @@ export default function ourteam({ team }) {
   return (
     <>
       <Head>
-        <title>Generation Chosen: Our Team</title>
+        <title>Generation Chosen: Our Therapists</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="">
@@ -21,7 +21,7 @@ export default function ourteam({ team }) {
             alt="image of the team"
           />
           <h1 className="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
-            Our Team
+            Our Therapists
           </h1>
         </div>
       </div>

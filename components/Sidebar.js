@@ -8,8 +8,8 @@ function Sidebar() {
         <Link href="/ourboard" className="font-bold text-xl">
           Our Board
         </Link>
-        <Link href="/ourteam" className=" font-bold text-xl">
-          Our Team
+        <Link href="/ourtherapists" className=" font-bold text-xl">
+          Our Therapists
         </Link>
         <Link href="/programs" className=" font-bold text-xl">
           Programs
