@@ -4,7 +4,13 @@ import { programPageQuery } from "../../lib/sanity/programPageQuery";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 import Head from "next/head";
-export default function program({ title, mainImage, content, imagesGallery }) {
+export default function program({
+  title,
+  mainImage,
+  content,
+  imagesGallery,
+  email,
+}) {
   const components = {
     block: {
       // Ex. 1: customizing common block types
@@ -38,6 +44,9 @@ export default function program({ title, mainImage, content, imagesGallery }) {
           {title}
         </h3>
         <PortableText value={content} components={components} />
+        <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full">
+          <a href={`mailto:${email} `}>Contact Now</a>
+        </button>
         {/* {imagesGallery.map((image, i) => (
           <img key={i} className="my-4 " src={urlFor(image)}></img>
         ))} */}
@@ -60,6 +69,7 @@ export const getServerSideProps = async (pageContext) => {
     return {
       props: {
         title: program.title,
+        email: program.email,
         mainImage: program.mainImage,
         content: program.content,
         imagesGallery: program.imagesGallery,
