@@ -25,14 +25,14 @@ export default function Footer() {
               template="clare"
               formId={MY_FORM_ID}
             /> */}
-            {/* <input
+            <input
               className="border border-black lg:p-5  placeholder:pl-2 p-0 text-lg h-[50px] lg:h-[75px]"
               type="text"
               placeholder="Enter your email"
             ></input>
             <button className="lg:p-5 p-2 px-4 pl-5 font-['Poppins'] text-lg  border-black border-4 font-semibold bg-[#D9D9D9] h-[50px] lg:h-[75px]">
               Subscribe
-            </button> */}
+            </button>
           </div>
         </div>
         <div>
@@ -78,7 +78,7 @@ export default function Footer() {
         </div>
         <div className="py-4 bg-black text-center font-semibold">
           <p className="text-sm text-white lg:text-lg  py-1 font-['Poppins'] ">
-            Copyright © 2023 All rights reserved - Gen_Chos3n
+            Copyright © 2023 All rights reserved - Generation Chosen
           </p>
           <p className="text-sm text-white lg:text-lg py-1  font-['Poppins'] ">
             Powered By OAD
