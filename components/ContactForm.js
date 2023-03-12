@@ -10,7 +10,7 @@ export default function ContactForm() {
         <form
           className="lg:w-3/4 lg:mx-auto gap-4 mx-10"
           target="_blank"
-          action="https://formsubmit.co/management@generationchosen.ca"
+          action="https://formsubmit.co/marketing@generationchosen.ca"
           method="POST"
         >
           <input
