@@ -19,21 +19,34 @@ export default function Footer() {
               typesetting industry.
             </p> */}
           </div>
-          <div className="flex justify-center font-['Poppins'] lg:mr-20 my-4 lg:my-auto lg:w-1/2">
-            {/* <ConvertKitForm
+          <form
+            className="lg:w-3/4 lg:mx-auto gap-4 mx-10"
+            target="_blank"
+            action="https://formsubmit.co/3f990555d6e9408ca7f53f6605aab006"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Gen Chosen : New subscription"
+            ></input>
+            <input type="hidden" name="_captcha" value="false"></input>
+            <div className="flex justify-center font-['Poppins'] lg:mr-20 my-4 lg:my-auto lg:w-1/2">
+              {/* <ConvertKitForm
               hideName={true}
               template="clare"
               formId={MY_FORM_ID}
             /> */}
-            <input
-              className="border border-black lg:p-5  placeholder:pl-2 p-0 text-lg h-[50px] lg:h-[75px]"
-              type="text"
-              placeholder="Enter your email"
-            ></input>
-            <button className="lg:p-5 p-2 px-4 pl-5 font-['Poppins'] text-lg  border-black border-4 font-semibold bg-[#D9D9D9] h-[50px] lg:h-[75px]">
-              Subscribe
-            </button>
-          </div>
+              <input
+                className="border border-black lg:p-5  placeholder:pl-2 p-0 text-lg h-[50px] lg:h-[75px]"
+                type="text"
+                placeholder="Enter your email"
+              ></input>
+              <button className="lg:p-5 p-2 px-4 pl-5 font-['Poppins'] text-lg  border-black border-4 font-semibold bg-[#D9D9D9] h-[50px] lg:h-[75px]">
+                Subscribe
+              </button>
+            </div>
+          </form>
         </div>
         <div>
           {/* Icons */}
