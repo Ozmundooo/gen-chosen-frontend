@@ -2,7 +2,9 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
+
 export default function Footer() {
+  const MY_FORM_ID = 4938670;
   return (
     <>
       <footer className="">
@@ -11,21 +13,26 @@ export default function Footer() {
             <h2 className="text-3xl font-bold lg:text-4xl font-['Raleway']">
               Sign up to our newsletter
             </h2>
-            <p className="text-md lg:text-lg px-10 lg:px-0 pt-4 font-['Poppins'] ">
+            {/* <p className="text-md lg:text-lg px-10 lg:px-0 pt-4 font-['Poppins'] ">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.Lorem Ipsum is simply dummy text of the printing and
+              industry. Lorem Ipsum is simply dummy text of the printing and
               typesetting industry.
-            </p>
+            </p> */}
           </div>
           <div className="flex justify-center font-['Poppins'] lg:mr-20 my-4 lg:my-auto lg:w-1/2">
-            <input
+            {/* <ConvertKitForm
+              hideName={true}
+              template="clare"
+              formId={MY_FORM_ID}
+            /> */}
+            {/* <input
               className="border border-black lg:p-5  placeholder:pl-2 p-0 text-lg h-[50px] lg:h-[75px]"
               type="text"
               placeholder="Enter your email"
             ></input>
             <button className="lg:p-5 p-2 px-4 pl-5 font-['Poppins'] text-lg  border-black border-4 font-semibold bg-[#D9D9D9] h-[50px] lg:h-[75px]">
               Subscribe
-            </button>
+            </button> */}
           </div>
         </div>
         <div>
