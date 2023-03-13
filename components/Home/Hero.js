@@ -1,5 +1,5 @@
 import React from "react";
-import HomeHero from "../../assets/OurTeamHero.jpg";
+import HomeHero from "../../assets/HomeHeroBg.png";
 import Image from "next/image";
 export default function Hero() {
   return (
