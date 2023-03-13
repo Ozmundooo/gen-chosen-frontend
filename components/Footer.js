@@ -59,8 +59,8 @@ export default function Footer() {
                 Our Board
               </Link>{" "}
               <strong>·</strong>{" "}
-              <Link className="hover:underline" href="/ourteam">
-                Our Team
+              <Link className="hover:underline" href="/ourtherapists">
+                Our Therapists
               </Link>{" "}
               <strong>·</strong>{" "}
               <Link className="hover:underline" href="/programs">
