@@ -32,7 +32,7 @@ export default function program({
         <div className="relative ">
           <img
             src={urlFor(mainImage)}
-            className="opacity-[80%] brightness-50 object-cover h-[30vh] xl:h-[45vh] w-full"
+            className="opacity-[80%] brightness-50 object-cover object-top h-[30vh] xl:h-[55vh] w-full"
           />
           <h1 className="absolute top-1/2 ml-8 lg:ml-16 xl:ml-20  -translate-y-1/2 text-3xl lg:text-4xl font-['Raleway'] text-white font-semibold">
             {title}
