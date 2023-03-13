@@ -26,7 +26,7 @@ export default function ProgramCard({ program }) {
           {program.title}
         </h3>
         <img
-          className="h-[250px]  object-cover mb-2"
+          className="h-[250px] w-full  object-cover mb-2"
           src={urlFor(program.mainImage)}
         ></img>
         <PortableText
